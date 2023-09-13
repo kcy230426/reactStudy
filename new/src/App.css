@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkblue;
+}
+
+.box{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h3{
+  margin-right: 10px;
+}
+
+button{
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+p{
+  padding-left: 4px;
+  margin: 0;
+}
+
+.blank{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+}
